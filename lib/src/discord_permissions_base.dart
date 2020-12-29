@@ -1,3 +1,4 @@
+/// Different permissions
 const permissions = {
   'CREATE_INSTANT_INVITE': 1,
   'KICK_MEMBERS': 2,
@@ -33,6 +34,7 @@ const permissions = {
   'MANAGE_EMOJIS': 1073741824
 };
 
+/// Calculates all the permissions and returns a mapped object.
 Permissions convertPermissions(int permNumber) {
   var result = {};
   for (var entry in permissions.entries) {
@@ -41,6 +43,7 @@ Permissions convertPermissions(int permNumber) {
   return Permissions._fromMap(result);
 }
 
+/// All the permissions as mapped object.
 class Permissions {
   Map _permissions;
 
@@ -79,6 +82,7 @@ class Permissions {
       MANAGE_WEBHOOKS,
       MANAGE_EMOJIS;
 
+  /// Needs a pre calculated map.
   Permissions._fromMap(Map permissions) {
     _permissions = permissions;
     CREATE_INSTANT_INVITE = permissions['CREATE_INSTANT_INVITE'];
@@ -115,9 +119,9 @@ class Permissions {
     MANAGE_EMOJIS = permissions['MANAGE_EMOJIS'];
   }
 
+  /// Uses the map for better console output
   @override
   String toString() {
     return map.toString();
   }
-
 }

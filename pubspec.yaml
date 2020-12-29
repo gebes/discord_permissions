@@ -1,7 +1,7 @@
 name: discord_permissions
-description: Simple Discord Permissions Mapper written in Dart
+description: A simple library, for mapping the Discord permissions to an object only with the permissions code.
 version: 1.0.0
-homepage: http://github.com/Gebes/discord_permissions
+homepage: https://github.com/Gebes/discord_permissions
 
 environment:
   sdk: '>=2.7.0 <3.0.0'
