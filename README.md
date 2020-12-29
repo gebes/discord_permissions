@@ -1,4 +1,4 @@
-A simple library, for calculating the Discord permissions by the permissions code.
+A simple library, for mapping the Discord permissions to an object only with the permissions code.
 
 
 ## Usage
