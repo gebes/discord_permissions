@@ -2,7 +2,7 @@ A simple library, for mapping the Discord permissions to an object only with the
 
 
 ## Usage
-It is very simple. Just call the function `convertPermissions` and use the Permissions Object which is returned.
+It is effortless. Just call the function `convertPermissions` and use the Permissions Object which is returned.
 
 ```dart
 import 'package:discord_permissions/discord_permissions.dart';
