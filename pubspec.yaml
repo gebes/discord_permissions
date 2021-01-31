@@ -1,6 +1,6 @@
 name: discord_permissions
 description: A simple library, for mapping the Discord permissions to an object only with the permissions code.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/Gebes/discord_permissions
 
 environment:
