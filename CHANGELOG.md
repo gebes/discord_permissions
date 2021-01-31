@@ -1,6 +1,10 @@
+## 1.0.2
+
+- Added more documentations
+
 ## 1.0.1
 
-- Added Documentations
+- Added documentations
 
 ## 1.0.0
 
